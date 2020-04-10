@@ -1,0 +1,51 @@
+version: "2"
+services:
+  letsencrypt:
+    image: linuxserver/letsencrypt
+    container_name: letsencrypt
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Lakeview
+      - URL=10leej.com
+      - SUBDOMAINS=planarally, wiki
+      - VALIDATION=http
+      - EMAIL=josh@10leej.com
+      - DHLEVEL=2048
+    volumes:
+      - /home/joshua/webserver/persistent:/config
+    ports:
+      - 443:443
+      - 80:80
+    restart: unless-stopped
+
+  planarally:
+    image: 'kruptein/planarally'
+    container_name: planarally
+    volumes:
+    - 'data:/planarally/data'
+    - 'assets:/planarally/static/assets'
+    restart: always
+
+volumes:
+  data:
+  assets:
+
+  dokuwiki:
+    image: linuxserver/dokuwiki
+    container_name: dokuwiki
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Lakeview
+      - APP_URL=/dokuwiki
+    volumes:
+      - /home/edmael/dokuwiki/persistent:/config
+#    ports:
+#      - 80:80
+#      - 443:443
+    restart: unless-stopped
+
+
