@@ -11,4 +11,4 @@ tags:
   - Ubuntu
 draft: true
 ---
-<!--more-->
+# In a world, living in a box.
