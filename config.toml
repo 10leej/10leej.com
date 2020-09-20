@@ -1,0 +1,128 @@
+baseurl = "/"
+title = "10leej.com"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+
+[Author] # Used in authorbox
+  name = "Joshua Lee"
+  bio = "Hello my name is Joshua Lee. I’m a gamer, an advocate of many things, and a hardworking blue collar guy."
+  avatar = "img/dmportrait.png"
+
+[Params]
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "Joshua Lee's Personal blog about everything" # Site description. Used in meta description
+  copyright = "Joshua Lee" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = false # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  title = "No Bacon Found Here" # Logo title, otherwise will use site title
+  subtitle = "Instead it's Just another random site" # Logo subtitle
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  facebook = "10leej"
+  twitter = "10leej"
+#  instagram = "username"
+#  linkedin = "username"
+  telegram = "Nevoyu"
+  github = "10leej"
+#  gitlab = "username"
+#  bitbucket = "username"
+  email = "josh@10leej.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/"
+    weight = -110
+  
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/news"
+    weight = -105
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/blog"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "guides"
+    name = "Guides"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/guide"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "5e"
+    name = "5e"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/5e"
+    weight = -95
+
+  [[menu.main]]
+    name = "Donate"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "https://www.patreon.com/10leej"
+    weight = -95
+
+  [[menu.main]]
+    name = "Planar Ally"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "https://planarally.10leej.com"
+    weight = -90
+
+  [[menu.main]]
+    name = "YouTube"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "https://yt.10leej.com"
+    weight = -85

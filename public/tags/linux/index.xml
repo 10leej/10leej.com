@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on 10leej.com</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in Linux on 10leej.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Sep 2020 08:48:35 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up Nfs on Linux</title>
+      <link>/setting-up-nfs-on-debian-10-buster/</link>
+      <pubDate>Wed, 16 Sep 2020 08:48:35 -0400</pubDate>
+      
+      <guid>/setting-up-nfs-on-debian-10-buster/</guid>
+      <description>I feel my neckbeard growing in here. So there is a video guide I made a few months back.
+Required Packages Debian/Ubuntu:
+ Server Only   apt install nfs-kernel-server
+  Client Only   apt install nfs-common
+ CentOS/Redhat/Fedora (should come preinstalled)
+ dnf install nfs-utils
+ Setting up the file share There&amp;rsquo;s a few things that need done here. First things first we need to pick a directory, or make one.</description>
+    </item>
+    
+  </channel>
+</rss>
