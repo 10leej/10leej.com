@@ -9,6 +9,6 @@ categories:
   - News
 tags:
   - Ubuntu
-draft: false
+draft: true
 ---
 <!--more-->
