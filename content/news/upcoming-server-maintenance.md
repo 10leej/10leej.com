@@ -8,7 +8,7 @@ categories:
   - News
 tags:
   - Meta
-draft: true
+draft: false
 ---
 <!--more-->
 # Upcoming Maintenance
