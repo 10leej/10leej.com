@@ -4,12 +4,57 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-09-16T08:48:35-04:00</lastmod>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/a-new-year/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-09-16T08:48:35-04:00</lastmod>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/meta/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opensuse/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-02T12:28:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/news/</loc>
+    <lastmod>2021-01-01T21:57:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
+    <lastmod>2021-01-01T21:57:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/upcoming-server-maintenance/</loc>
+    <lastmod>2021-01-01T21:57:42-05:00</lastmod>
   </url>
   
   <url>
@@ -38,22 +83,7 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-16T08:48:35-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-09-16T08:09:56-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/journal/</loc>
-    <lastmod>2020-09-16T08:09:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/news/</loc>
     <lastmod>2020-09-16T08:09:56-04:00</lastmod>
   </url>
   
@@ -63,17 +93,7 @@
   </url>
   
   <url>
-    <loc>/tags/meta/</loc>
-    <lastmod>2020-09-16T07:48:52-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/new-site/</loc>
-    <lastmod>2020-09-16T07:48:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/</loc>
     <lastmod>2020-09-16T07:48:52-04:00</lastmod>
   </url>
   
@@ -100,11 +120,6 @@
   <url>
     <loc>/legend-of-the-black-swords/</loc>
     <lastmod>2020-05-16T08:07:38-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2019-01-16T08:28:41-04:00</lastmod>
   </url>
   
   <url>

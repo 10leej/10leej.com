@@ -6,7 +6,7 @@ theme = "mainroad"
 
 [Author] # Used in authorbox
   name = "Joshua Lee"
-  bio = "Hello my name is Joshua Lee. I’m a gamer, an advocate of many things, and a hardworking blue collar guy."
+  bio = "Hello my name is Joshua Lee. I’m a gamer, an advocate of many things, and a hardworking blue collar guy. I run this site purely as a hobby and maybe a small learning experience, and this blog is mostly for my random writings. I dont run any ads and I likely never will, so if you like what i do here click that donate button at the top of the page!"
   avatar = "img/dmportrait.png"
 
 [Params]
