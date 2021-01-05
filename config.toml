@@ -40,7 +40,7 @@ theme = "mainroad"
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  image = "img/dmportrait.png" # Logo image. Path relative to "static"
   title = "No Bacon Found Here" # Logo title, otherwise will use site title
   subtitle = "Instead it's Just another random site" # Logo subtitle
 
