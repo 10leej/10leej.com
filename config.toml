@@ -124,5 +124,5 @@ theme = "mainroad"
     name = "YouTube"
     post = ""
     pre = "<i class='fa fa-road'></i>"
-    url = "https://yt.10leej.com"
+    url = "http://yt.10leej.com"
     weight = -85
