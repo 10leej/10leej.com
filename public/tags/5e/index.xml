@@ -6,7 +6,17 @@
     <description>Recent content in 5e on 10leej.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 08:07:38 -0400</lastBuildDate><atom:link href="/tags/5e/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:36:34 -0500</lastBuildDate><atom:link href="/tags/5e/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Play D&amp;D Using Linux Native Tools</title>
+      <link>/how-i-play-dnd-using-linux-tools/</link>
+      <pubDate>Sun, 17 Jan 2021 12:36:34 -0500</pubDate>
+      
+      <guid>/how-i-play-dnd-using-linux-tools/</guid>
+      <description>Why Linux? I use Linux as my primary operating system purely as personal preference. If you&amp;rsquo;ve looked at my previous post you&amp;rsquo;ll know I prefer to use Tiling Window Managers these days and honestly using Windows 10 or even MacOS just feels&amp;hellip;. wrong to me.
+So allow me a momnent before I dig into these tools I need to make the disclaimer that they aren&amp;rsquo;t all open source or even free.</description>
+    </item>
+    
     <item>
       <title>Legend of the Black Swords</title>
       <link>/legend-of-the-black-swords/</link>

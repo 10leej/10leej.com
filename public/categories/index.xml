@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 10leej.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 12:28:40 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 12:36:34 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5e</title>
+      <link>/categories/5e/</link>
+      <pubDate>Sun, 17 Jan 2021 12:36:34 -0500</pubDate>
+      
+      <guid>/categories/5e/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blog</title>
       <link>/categories/blog/</link>
@@ -31,15 +40,6 @@
       <pubDate>Wed, 16 Sep 2020 08:48:35 -0400</pubDate>
       
       <guid>/categories/guide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>5e</title>
-      <link>/categories/5e/</link>
-      <pubDate>Sat, 16 May 2020 08:07:38 -0400</pubDate>
-      
-      <guid>/categories/5e/</guid>
       <description></description>
     </item>
     
