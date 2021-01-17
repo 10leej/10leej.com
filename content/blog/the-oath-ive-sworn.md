@@ -12,7 +12,7 @@ draft: true
 ---
 <!--more-->
 
-# I have this document I've sign every year.  
+# I have this document I've signed every year.  
 It's an interesting phenominon, a simple set of 12 rules that just last year was accompanied with a [set of videos](https://www.youtube.com/playlist?list=PL0k1L4404P4_EMKDK6gF46ldqjX2uAPF3). Yes I have signed the [S.W.E.A.T. pledge](https://www.mikeroweworks.org/sweat/).  
 I sign it every year as a reminder to myself, for what I wish to achieve. I'm sure some of you noticed my [repost of an older post](https://10leej.com/the-meaning-of-life-and-everything-is-42/) where I talk about my uh... *religion*.  
 Well today as I'm just over a week into yet another a temporary job my boss asked him how I liked my job. I told her I'm more or less indifferent, but do enjoy the fact that I basically have constant work without the expectations of *get it done yesterday*.  

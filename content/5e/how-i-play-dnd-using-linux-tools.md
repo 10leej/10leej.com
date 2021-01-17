@@ -5,14 +5,12 @@ date: 2021-01-17T12:36:34-05:00
 url: /how-i-play-dnd-using-linux-tools/
 image: /images/2020-thumbs/how-i-play-dnd-using-linux-tools.jpg
 categories:
-  - Blog
   - 5e
-  - Guides
 tags:
   - Linux
   - 5e
   - D&D
-draft: true
+draft: false
 ---
 ## Why Linux?
 I use Linux as my primary operating system purely as personal preference. If you've looked at my [previous post](https://10leej.com/a-new-year/) you'll know I prefer to use Tiling Window Managers these days and honestly using Windows 10 or even MacOS just feels.... wrong to me.  
