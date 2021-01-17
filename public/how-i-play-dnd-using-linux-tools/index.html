@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>How I Play D&amp;D Using Linux Native Tools - 10leej.com</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="How I Play D&amp;D Using Linux Native Tools" />
+<meta property="og:description" content="Why Linux? I use Linux as my primary operating system purely as personal preference. If you&rsquo;ve looked at my previous post you&rsquo;ll know I prefer to use Tiling Window Managers these days and honestly using Windows 10 or even MacOS just feels&hellip;. wrong to me.
+So allow me a momnent before I dig into these tools I need to make the disclaimer that they aren&rsquo;t all open source or even free." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/how-i-play-dnd-using-linux-tools/" />
+<meta property="article:published_time" content="2021-01-17T12:36:34-05:00" />
+<meta property="article:modified_time" content="2021-01-17T12:36:34-05:00" />
+
+		<meta itemprop="name" content="How I Play D&amp;D Using Linux Native Tools">
+<meta itemprop="description" content="Why Linux? I use Linux as my primary operating system purely as personal preference. If you&rsquo;ve looked at my previous post you&rsquo;ll know I prefer to use Tiling Window Managers these days and honestly using Windows 10 or even MacOS just feels&hellip;. wrong to me.
+So allow me a momnent before I dig into these tools I need to make the disclaimer that they aren&rsquo;t all open source or even free.">
+<meta itemprop="datePublished" content="2021-01-17T12:36:34-05:00" />
+<meta itemprop="dateModified" content="2021-01-17T12:36:34-05:00" />
+<meta itemprop="wordCount" content="785">
+
+
+
+<meta itemprop="keywords" content="Linux,5e,D&amp;D," />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="No Bacon Found Here" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/dmportrait.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">No Bacon Found Here</div>
+					<div class="logo__tagline">Instead it&#39;s Just another random site</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/news">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">News</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Blog</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/guide">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Guides</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/5e">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">5e</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://www.patreon.com/10leej">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Donate</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://planarally.10leej.com">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Planar Ally</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://yt.10leej.com">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">YouTube</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">How I Play D&amp;D Using Linux Native Tools</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Joshua Lee</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-17T12:36:34-05:00">2021-01-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/5e/" rel="category">5e</a>
+	</span>
+</div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-linux">Why Linux?</a></li>
+    <li><a href="#planar-ally">Planar Ally</a></li>
+    <li><a href="#jitsi-meet">Jitsi-Meet</a></li>
+    <li><a href="#kankaio">Kanka.IO</a></li>
+    <li><a href="#wonderdraft">Wonderdraft</a></li>
+    <li><a href="#dungeondraft">Dungeondraft</a></li>
+    <li><a href="#foss-alternatives">FOSS alternatives</a></li>
+    <li><a href="#how-i-stream-my-campaign">How I stream my campaign</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<h2 id="why-linux">Why Linux?</h2>
+<p>I use Linux as my primary operating system purely as personal preference. If you&rsquo;ve looked at my <a href="https://10leej.com/a-new-year/">previous post</a> you&rsquo;ll know I prefer to use Tiling Window Managers these days and honestly using Windows 10 or even MacOS just feels&hellip;. wrong to me.<br>
+So allow me a momnent before I dig into these tools I need to make the disclaimer that they aren&rsquo;t all open source or even free. I&rsquo;ll list the two proprietary ones last</p>
+<h2 id="planar-ally">Planar Ally</h2>
+<p>So if you scroll up on my website you&rsquo;ll see that I use <a href="https://www.planarally.io/">Planar Ally</a> as my Virtual Desktop of choice. The dev behind it Kruptein has been very <a href="https://github.com/Kruptein/planarally">responsive to feedback</a> and has put a ton of effort behind making PA the best solution possible. I even makde a <a href="https://youtu.be/Ch81VoAmnPI">low effort video</a> on it.</p>
+<h2 id="jitsi-meet">Jitsi-Meet</h2>
+<p>So really any standard voice communication tool would work, but I livestream my campaign and the players liked the idea of a camera feed. So really Jitsi-Meet was really the most straightforward tool for this as I find it&rsquo;s got the best latency and the most reliable connection.</p>
+<h2 id="kankaio">Kanka.IO</h2>
+<p>Ok so I&rsquo;m still new to this wonderful tool, but if you&rsquo;ve seen advertisements for <a href="https://www.worldanvil.com/">WorldAnvil</a>, <a href="https://kanka.io/">Kanka</a> does everything that does. At first when you look around the site you&rsquo;d think it&rsquo;s not open source, but that&rsquo;s wrong. It in fact is open, and <a href="https://github.com/ilestis/miscellany">here&rsquo;s the git repo</a> they use the paid tiers to support their developers as well as pay for the server hosting.</p>
+<h2 id="wonderdraft">Wonderdraft</h2>
+<p>Ok so here&rsquo;s something I haven&rsquo;t really shown much. But this is the first proprietary application and it&rsquo;s a world map making tool. <a href="https://www.wonderdraft.net/">Wonderdraft</a> is my preference for drawing a world map, and honestly that&rsquo;s only because it makes it easy. Unlike other solutions it&rsquo;s a one time purchase too for as little as $30.</p>
+<h2 id="dungeondraft">Dungeondraft</h2>
+<p>So made by the same guys behind Wonderdraft, <a href="https://dungeondraft.net/">Dungeondraft</a> has very recently hit not only version 1.0 after a very successful beta, but it also recently had a native Linux port. I admit it&rsquo;s still buggy but like it for many of the same reasons I like Wonderdraft. It&rsquo;s a One time purchase (this time for $20) and it&rsquo;s got a MASSIVE community around it.</p>
+<h2 id="foss-alternatives">FOSS alternatives</h2>
+<p>So I know there&rsquo;s an interest in alternatives to the last two, and honestly I don&rsquo;t really recommend them personally. But if you need to draw dungeons, you can do that in <a href="https://www.gimp.org/">GIMP</a> although it&rsquo;s a bit gimmicky.<br>
+You can also use <a href="https://www.rptools.net/toolbox/maptool/">MapTool</a> which is an old school solution and has a learning curce. But, it&rsquo;s been the standard for years for being that sotfware tool behind all the maps you see used on the fancy TV tables. If you&rsquo;re a maptool user, go ahead and keep using it I wont stop you. But if you&rsquo;re new to the hobby, I highly recommend Dungeondraft.<br>
+If you need a WorldMap I honestly can only point to <a href="https://krita.org/en/">Krita</a>, while yes you can draw a map in GIMP, Krita is just the better option IMO.</p>
+<p>Why do I use the proprietary tools though? It&rsquo;s simply and unfortunately convenience. While I&rsquo;m an advocate for FOSS tools I&rsquo;m also very aware of Time vs Effort as someone who has a backround in operating businesses and managing sales/political/logistical campaigns.<br>
+While I love the stuff people can make using the FOSS tools I mentioned I just simply dont want to put the time or effort into making them work, for me.</p>
+<p>If you want a true FOSS alternative to Kanka.IO you can simply use one of hundreds of wiki solutions as well. I prefer <a href="https://www.dokuwiki.org/dokuwiki">DokuWiki</a></p>
+<h2 id="how-i-stream-my-campaign">How I stream my campaign</h2>
+<p>So I do stream my campaigns more to my own players request and mostly because I can. You can catch my live every Saturday at 7pm on my YouTube channel. That&rsquo;s also where I save my VODs as well even though I&rsquo;ve flirted with the idea of uploading them to LBRY at times.<br>
+So how do I stream? Well with the one solution for streaming in general: <a href="https://obsproject.com/">OBS-Studio</a>.<br>
+To capture the camera feeds I use a Chromium plugin called <a href="https://chrome.google.com/webstore/detail/pop-out-jitsi-meet/boklbbjieahngbnhdmlhldjjibdnnbcn?hl=en">Pop-out Jitsi Meet</a> which is FOSS <a href="https://github.com/Jip-Hop/jitsi-pop">Git Link</a>. I simply load everyone into a multiview screen and capture it as a Window source in OBS.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>So that&rsquo;s pretty much it. I won&rsquo;t really go into making guides on using these tools especially since a few of them are still relatively brand new and quite aggressively maintained.
+I do use Discord for finding and talking with my current set of players, but if you want to talk with me I have <a href="https://discord.gg/cUfbCBF">this one available</a>, I&rsquo;m also available on all the social links found on the <a href="https://10leej.com">homepage of this website</a>.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/linux/" rel="tag">Linux</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/5e/" rel="tag">5e</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/dd/" rel="tag">D&amp;D</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Joshua Lee avatar" src="/img/dmportrait.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Joshua Lee</span>
+	</div>
+	<div class="authorbox__description">
+		Hello my name is Joshua Lee. I’m a gamer, an advocate of many things, and a hardworking blue collar guy. I run this site purely as a hobby and maybe a small learning experience, and this blog is mostly for my random writings. I dont run any ads and I likely never will, so if you like what i do here click that donate button at the top of the page!
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/legend-of-the-black-swords/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Legend of the Black Swords</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Joshua Lee.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
