@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://10leej.com/"
 title = "10leej.com"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
